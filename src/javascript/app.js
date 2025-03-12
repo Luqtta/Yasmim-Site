@@ -85,11 +85,22 @@ window.addEventListener('scroll', () => {
 });
 
 
-document.getElementById('backToTop').addEventListener('click', () => {
-    window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-    });
+window.onscroll = function() {
+    var button = document.getElementById("backToTop");
+
+
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+        button.classList.remove("opacity-0", "pointer-events-none");
+        button.classList.add("opacity-100", "pointer-events-auto");
+    } else {
+        button.classList.remove("opacity-100", "pointer-events-auto");
+        button.classList.add("opacity-0", "pointer-events-none");
+    }
+};
+
+
+document.getElementById("backToTop").addEventListener("click", function() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 });
 
 
