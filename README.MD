@@ -6,7 +6,6 @@ Este projeto consiste em um **site desenvolvido para uma estrategista digital**,
 
 - **HTML** – Estruturação básica da página.
 - **CSS** – Estilos básicos do layout.
-- **SCSS** – Para uma organização e manutenção mais eficaz dos estilos.
 - **Tailwind CSS** – Framework de CSS para um design altamente customizável e responsivo.
 - **JavaScript** – Funcionalidades interativas no front-end.
 - **Node.js** – Backend para manipulação de dados e servidores.
