@@ -11,6 +11,10 @@ Este projeto consiste em um **site desenvolvido para uma estrategista digital**,
 - **JavaScript** – Funcionalidades interativas no front-end.
 - **Node.js** – Backend para manipulação de dados e servidores.
   
+## Preview
+
+
+
 ## Descrição do Projeto
 
 O site foi desenvolvido com foco em **eficiência e otimização**, proporcionando uma interface fluida e adaptável a diferentes dispositivos. A utilização de **Tailwind CSS** facilita a criação de layouts responsivos e de fácil manutenção, enquanto o **Node.js** permite uma integração dinâmica com os usuários. A combinação de **SCSS** e **JavaScript** possibilita maior flexibilidade no design e interatividade do site.
