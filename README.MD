@@ -15,6 +15,10 @@ Este projeto consiste em um **site desenvolvido para uma estrategista digital**,
 
 ![Image](https://github.com/user-attachments/assets/3051149e-1b41-4d8f-955b-a223a1701650)
 
+## Preview Responsivo
+
+![Image](https://github.com/user-attachments/assets/d533ee9d-cba2-4bcc-91f4-870848c40d3f)
+
 
 ## Descrição do Projeto
 
