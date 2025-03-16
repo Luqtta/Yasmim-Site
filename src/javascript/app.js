@@ -124,20 +124,3 @@ copyEmail.addEventListener('click', async () => {
         console.error('Erro ao copiar email:', err);
     }
 });
-
-
-let clicks = 0;
-const title = document.querySelector('h1');
-
-title.addEventListener('click', () => {
-    clicks++;
-    
-    if (clicks === 5) {
-        confetti({
-            particleCount: 100,
-            spread: 70,
-            origin: { y: 0.6 }
-        });
-        clicks = 0;
-    }
-});
