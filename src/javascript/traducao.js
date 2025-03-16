@@ -8,8 +8,8 @@ function loadLanguageFile() {
 
     if (language.startsWith('en')) {
         window.location.href = '/en';
-    } else if (language.startsWith('pt')) {
-        window.location.href = '/pt';
+    } else if (language.startsWith('pt-br')) {
+        window.location.href = '/pt-br';
     } else {
         window.location.href = '/en';
     }
