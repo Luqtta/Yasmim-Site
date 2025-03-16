@@ -2,4 +2,3 @@ RewriteEngine On
 RewriteRule ^$ /index.html [L]
 RewriteRule ^en/?$ /index.html?lang=en [L]
 RewriteRule ^pt/?$ /index.html?lang=pt [L]
-a
