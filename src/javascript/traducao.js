@@ -7,11 +7,11 @@ function loadLanguageFile() {
     const language = getUserLanguage().toLowerCase();
 
     if (language.startsWith('en')) {
-        window.location.href = './en.html'; 
+        window.location.href = '/en';
     } else if (language.startsWith('pt-br')) {
-        window.location.href = './pt-br.html';  
+        window.location.href = '/pt-br';
     } else {
-        window.location.href = './en.html';  
+        window.location.href = '/en';
     }
 }
 
